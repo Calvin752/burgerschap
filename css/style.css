@@ -1,0 +1,83 @@
+/* Algemene instellingen */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header (strakke achtergrond en tekststijl) */
+header {
+  background-color: #000;
+  color: white;
+}
+
+header h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Navigatie (zwart-witte stijl) */
+.navbar {
+  background-color: #000;
+}
+
+.navbar a {
+  color: white;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+/* Kaarten voor de secties */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #000;
+}
+
+.card-text {
+  color: #555;
+}
+
+.card a {
+  font-weight: 600;
+  color: #000;
+}
+
+.card a:hover {
+  color: #007bff;
+}
+
+/* Footer (strak en eenvoudig) */
+footer {
+  background-color: #000;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #007bff;
+}
