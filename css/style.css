@@ -1,83 +1,79 @@
-/* Algemene instellingen */
 body {
-  background-color: #fff;
-  color: #333;
-  font-family: 'Arial', sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f7f9;
+  color: #333;
 }
 
-/* Header (strakke achtergrond en tekststijl) */
+/* Header met achtergrondafbeelding */
 header {
-  background-color: #000;
+  position: relative;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+              url('https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
   color: white;
+  text-align: center;
+  padding: 120px 20px;
 }
 
-header h1 {
-  font-family: 'Arial', sans-serif;
-  font-size: 3rem;
-  font-weight: bold;
+/* Witte navbar bovenop de afbeelding, nu wat breder */
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px; /* ↑ meer hoogte, meer zijkantruimte */
+  background-color: rgba(255, 255, 255, 0.95);
+  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-header p {
-  font-size: 1.2rem;
-  font-weight: 300;
-}
-
-/* Navigatie (zwart-witte stijl) */
-.navbar {
-  background-color: #000;
-}
-
-.navbar a {
-  color: white;
-  font-weight: 600;
-}
-
-.navbar a:hover {
-  color: #007bff;
-}
-
-/* Kaarten voor de secties */
-.card {
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
-}
-
-.card-body {
-  padding: 20px;
-}
-
-.card-title {
-  font-weight: bold;
+/* Logo links */
+nav .logo {
   color: #000;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-decoration: none;
 }
 
-.card-text {
-  color: #555;
+/* Rechter navigatielinks */
+.nav-links {
+  display: flex;
+  gap: 25px;
 }
 
-.card a {
-  font-weight: 600;
+.nav-links a {
   color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.05em;
+  transition: color 0.3s;
 }
 
-.card a:hover {
-  color: #007bff;
+.nav-links a:hover {
+  color: #13315c;
 }
 
-/* Footer (strak en eenvoudig) */
+/* Header tekst */
+.header-content {
+  margin-top: 100px; /* iets meer ruimte, omdat nav nu hoger is */
+}
+
+/* Overige stijlen */
+.container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 { color: #0b2545; }
+
 footer {
-  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  background: #0b2545;
   color: white;
-  font-size: 0.9rem;
-}
-
-footer a {
-  color: white;
-}
-
-footer a:hover {
-  color: #007bff;
+  margin-top: 40px;
 }
