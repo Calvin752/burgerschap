@@ -1,42 +1,94 @@
+<!DOCTYPE html>
 <html lang="nl">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="css/style.css">
-<title>Tips & Ondersteuning</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tips & Ondersteuning</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-<h1>Tips & Ondersteuning</h1>
-<p>Word sterker in je carrière en persoonlijke ontwikkeling</p>
-</header>
-<nav>
-<a href="home.html">Home</a>
-<a href="werkzoeken.html">Werk zoeken</a>
-<a href="rechten.html">Rechten & Plichten</a>
-<a href="tips.html">Tips & Ondersteuning</a>
-<a href="contact.html">Contact</a>
-</nav>
-<div class="container">
-<h2>Werk-Privé Balans</h2>
-<ul>
-<li>Zorg voor vaste werktijden</li>
-<li>Plan vrije tijd en ontspanning</li>
-<li>Leer nee zeggen bij stress</li>
-</ul>
-<h2>Stress & Werkdruk</h2>
-<ul>
-<li>Plan je werk</li>
-<li>Praat met je leidinggevende</li>
-<li>Zorg voor voldoende rust</li>
-</ul>
-<h2>Netwerken & LinkedIn</h2>
-<ul>
-<li>Maak een professioneel profiel</li>
-<li>Voeg stagebedrijven en klasgenoten toe</li>
-<li>Post over projecten en successen</li>
-</ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container-fluid px-6">
+  <a class="navbar-brand fw-bold ms-2" href="index.html">Start je Carrière</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="werkzoeken.html">Werk zoeken</a></li>
+      <li class="nav-item"><a class="nav-link" href="rechten.html">Rechten & Plichten</a></li>
+      <li class="nav-item"><a class="nav-link" href="tips.html">Tips</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
 </div>
-<footer>&copy; 2025 Jouw Carrière Gids</footer>
+  </nav>
+
+  <main class="container py-5 mt-5">
+    <h1 class="fw-bold text-primary mb-4">Tips & Ondersteuning</h1>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card p-4 shadow-sm h-100">
+          <h3 class="text-primary">Werk-privébalans</h3>
+          <p>Plan je tijd goed, neem pauzes en bewaak je grenzen. Een gezonde balans helpt je beter te presteren.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4 shadow-sm h-100">
+          <h3 class="text-primary">Omgaan met stress</h3>
+          <p>Praat met collega’s of leidinggevenden, sport regelmatig en neem tijd voor ontspanning.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4 shadow-sm h-100">
+          <h3 class="text-primary">Netwerken</h3>
+          <ul>
+            <li>Maak een <a href="https://www.linkedin.com" target="_blank">LinkedIn-profiel</a>.</li>
+            <li>Volg bedrijven die je interessant vindt.</li>
+            <li>Bezoek netwerkbijeenkomsten of jobbeurzen.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4 shadow-sm h-100">
+          <h3 class="text-primary">Extra hulpmiddelen</h3>
+          <ul>
+            <li><a href="#">Voorbeeld motivatiebrief</a></li>
+            <li><a href="#">CV-template (Word)</a></li>
+            <li><a href="#">Video: Solliciteren in 5 stappen</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer bg-primary text-white text-center mt-5">
+  <div class="container py-5">
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h5 class="fw-bold"> Contact</h5>
+        <p class="mb-0">Tel: 06 - 123 456 78</p>
+        <p>Email: <a href="mailto:info@startjecarriere.nl" class="text-white text-decoration-underline">info@startjecarriere.nl</a></p>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h5 class="fw-bold"> Adres</h5>
+        <p class="mb-0">Onderwijslaan 10</p>
+        <p>1000 AB Amsterdam</p>
+      </div>
+      <div class="col-md-4">
+        <h5 class="fw-bold">Volg ons</h5>
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i> Facebook</a><br>
+        <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i> LinkedIn</a><br>
+        <a href="#" class="text-white"><i class="bi bi-instagram"></i> Instagram</a>
+      </div>
+    </div>
+    <hr class="border-light">
+    <p class="mb-0">&copy; 2025 <strong>Start je Carrière</strong> | Ontworpen voor mbo-afgestudeerden</p>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
